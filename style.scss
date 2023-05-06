@@ -19,6 +19,7 @@ h1 {
 
 .slider-item img {
 	width: 100%;
+	min-height: 600px;
 	object-fit: cover;
 }
 
@@ -30,6 +31,7 @@ h1 {
 		width: 90%;
 		margin: 0 auto;
 		margin-top: 30px;
+		margin-bottom: 50px;
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
