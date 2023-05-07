@@ -1,3 +1,10 @@
+//TO DO
+// сделать transition слайдов
+// написать комментарии  в коде, html, css
+// оформить read me
+
+
+
 window.addEventListener('DOMContentLoaded', function() {
 
 'use strict';
