@@ -15,8 +15,8 @@
 <ul><h6>Изменить размеры блока слайдера</h6>
   <li>Максимальная ширина слайдера 950 px задана шириной контейнера - <br>
     .slider {<br>
-	    &nbsp;max-width: 950px;<br>
-	    <p>margin: 0 auto;</p>
+	    &nbsp;&nbsp;&nbsp;&nbsp; max-width: 950px;<br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;<p>margin: 0 auto;</p>
     } <br>
    Для изменения ширины измените значение свойства max-width.
   </li>
