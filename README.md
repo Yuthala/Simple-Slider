@@ -9,10 +9,5 @@
 <hr>
 <ul>Добавить/удалить изображение:
   <li>В index.html найти <div> с классом "wrap". Добавить/удалить нужное количество <div class="slider-item">
-    <code>
-      <div class="wrap">
-			<div class="slider-item">
-				<img src="img/slide_1.jpg" alt="slide_1">
-       </div>
-    </code>
+
 
