@@ -9,25 +9,25 @@
 Размер блока слайдера, установленный по умолчанию: 950 пикселей по ширине и 650 пикселей по высоте. 
 <hr>
 <ul><h6>Добавить/удалить изображение:</h6>
-  <li>В index.html найти div с классом "wrap". Добавить/удалить нужное количество <div class="slider-item">.</li>
+  <li>В index.html найти div с классом "wrap". Добавить/удалить нужное количество div class="slider-item".</li>
   <li>Оставить столько div с классом "dot" в div class="slider-dots" сколько изображений в слайдере. div с классом "dot dot-active" должен быть один и стоять первым по счету.</li>
 </ul>
 <ul><h6>Изменить размеры блока слайдера</h6>
   <li>Максимальная ширина слайдера 950 px задана шириной контейнера - <br>
-    .slider {
-	    max-width: 950px;
-	    margin: 0 auto;
+    .slider {<br>
+	    max-width: 950px;<br>
+	    margin: 0 auto;<br>
     } <br>
    Для изменения ширины измените значение свойства max-width.
   </li>
   <li>Высота блока слайдера 600 px задана свойством height для изображения: <br>
-    .slider-item img {
-      width: 100%;
-      height: 600px;
-      object-fit: cover;
-      animation-name: Appearance;
-      animation-duration: 1s;
-      animation-timing-function: cubic-bezier(.1, -.6, .2, 0);
+    .slider-item img {<br>
+      width: 100%;<br>
+      height: 600px;<br>
+      object-fit: cover;<br>
+      animation-name: Appearance;<br>
+      animation-duration: 1s;<br>
+      animation-timing-function: cubic-bezier(.1, -.6, .2, 0);<br>
     } <br>
   Для изменения высоты измените значение свойства height.
   </li>
