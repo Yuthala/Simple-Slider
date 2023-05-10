@@ -16,18 +16,18 @@
   <li>Максимальная ширина слайдера 950 px задана шириной контейнера - <br>
     .slider {<br>
 	    &nbsp;&nbsp;&nbsp;&nbsp; max-width: 950px;<br>
-	    &nbsp;&nbsp;&nbsp;&nbsp;<p>margin: 0 auto;</p>
+	    &nbsp;&nbsp;&nbsp;&nbsp; margin: 0 auto;<br>
     } <br>
    Для изменения ширины измените значение свойства max-width.
   </li>
   <li>Высота блока слайдера 600 px задана свойством height для изображения: <br>
     .slider-item img {<br>
-      width: 100%;<br>
-      height: 600px;<br>
-      object-fit: cover;<br>
-      animation-name: Appearance;<br>
-      animation-duration: 1s;<br>
-      animation-timing-function: cubic-bezier(.1, -.6, .2, 0);<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;width: 100%;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;height: 600px;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;object-fit: cover;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;animation-name: Appearance;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;animation-duration: 1s;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;animation-timing-function: cubic-bezier(.1, -.6, .2, 0);<br>
     } <br>
   Для изменения высоты измените значение свойства height.
   </li>
